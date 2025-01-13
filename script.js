@@ -13,7 +13,7 @@ function addBookToLibrary(title, author, category, pages, readStatus) {
     myLibrary.push(newBook);
   }
 
-addBookToLibrary("Lord of the Rings", "tomas tank", "smut", 259, false);
+addBookToLibrary("Lord of the Rings", "tomas tank", "brother", 259, false);
 addBookToLibrary("Salmon Lores", "shelbty", "gang", 222, true);
 addBookToLibrary("Jeffrey Dahmer", "jeffrey tank", "shooting", 123, true);
 console.log(myLibrary[0]);
